@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Banking System</title>
+    <link rel="stylesheet for obs" href="stylesheets/stylesheet_obs.css" />
+    <script type="text/javascript" src="js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        title="Website Title Icon"
+        id="I1"
+        src="images/iconForTitle.jpg"
+        alt="Online Banking System"
+      />
+      <h1 id="H1" title="Header for Website Name">Online Banking System</h1>
+    </header>
+    <hr />
+    <ul id="UL1" title="Navigation Pane">
+      <li title="Jump to Homepage"><a href="#H1">Homepage</a></li>
+      <li title="Jump to Navigation Pane"><a href="#UL1">Quick Links</a></li>
+      <li title="Jump to Contact Information"><a href="#A1">Contact us</a></li>
+      <li title="Jump to Registration">
+        <a href="registration.html">Register</a>
+      </li>
+    </ul>
+    <hr />
+    <p id="P1" title="Introduction Website">
+      <em>Welcome to Online Banking System!</em>
+    </p>
+    <hr />
+    <form title="If you already have an account." autocomplete="on">
+      <label title="Username" for="UserName">Username:</label><br />
+      <input
+        title="Please enter your username"
+        type="text"
+        id="UserName"
+        placeholder="Username"
+        name="UserName"
+        minlength="8"
+      /><br />
+      <label title="Password" for="Password">Password:</label><br />
+      <input
+        title="Please enter your password"
+        type="password"
+        id="Password"
+        placeholder="Password"
+        name="Password"
+        minlength="8"
+      />
+      <br />
+      <br />
+      <input
+        id="LogIn"
+        title="Click to Log In"
+        type="submit"
+        onclick="login()"
+        value="Log In"
+      />
+      <br />
+      <br />
+      <a href="registration.html">
+        <input title="Click to Register" type="button" value="Register" />
+      </a>
+      <br />
+      <br />
+    </form>
+    <hr />
+    <footer>
+      <address id="A1" title="Contact Us @">
+        Contact us at: <br />
+        (012-23456234) <br />
+        Email us: <br />
+        <a title="obs@gmail.com" href="mailto:obs@gmail.com" target="_blank"
+          >Send Email</a
+        >
+        <br />
+        Visit us at :<br />
+        XYZ <br />
+        Karachi <br />
+        Pakistan <br />
+      </address>
+    </footer>
+  </body>
+</html>

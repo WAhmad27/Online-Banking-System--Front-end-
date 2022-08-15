@@ -1,0 +1,69 @@
+body {
+    background-color: cadetblue;
+}
+#I1 {
+    float: left;
+    width: 55px;
+    height: 55px;
+} 
+#H1 {
+    text-align: center; 
+}
+#UL1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+  }
+  
+li {
+    float: left;
+} 
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+#P1 {
+    font-size:20px; 
+    text-align: center; 
+    color: darkslategray; 
+}
+button {
+    padding: 9px;
+    margin: 30px;
+    text-align: center;
+  }
+address {
+    text-align: right;
+}
+a:link {
+    color: darkslategray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: darkblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+}
+footer {
+    background-color: rgb(196, 221, 255);
+    padding: 10px;
+}
+form {
+    text-align: center;
+    border: 5px solid black;
+}

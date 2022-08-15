@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet for obs" href="stylesheets/stylesheet_obs.css" />
+    <script type="text/javascript" src="js/signup.js"></script>
+  </head>
+  <body>
+    <header>
+      <img
+        title="Website Title Icon"
+        id="I1"
+        src="images/iconForTitle.jpg"
+        alt="Online Banking System"
+      />
+      <h1 id="H2" title="Header for Website Name">Online Banking System</h1>
+    </header>
+    <hr />
+    <ul id="UL1" title="Navigation Pane">
+      <li title="Jump to Homepage"><a href="obs.html">Homepage</a></li>
+      <li title="Jump to Navigation Pane"><a href="#UL1">Quick Links</a></li>
+      <li title="Jump to Contact Information"><a href="#A1">Contact us</a></li>
+      <li title="Jump to Registration">
+        <a href="registration.html">Register</a>
+      </li>
+    </ul>
+    <hr />
+    <p id="P1" title="Registation Webpage">
+      <em>Welcome to Registration</em> <br />
+      <br />
+      Please enter the following details to register as a new user.
+    </p>
+    <hr />
+    <form title="Enter first name" autocomplete="on">
+      <label title="Firstname" for="Firstname">First Name:</label><br />
+      <input
+        title="Please enter your First Name"
+        type="text"
+        id="FirstName"
+        name="FirstName"
+        placeholder="First Name"
+      /><br />
+      <label title="Lastname" for="Lastname">Last Name:</label><br />
+      <input
+        title="Please enter your Last Name"
+        type="text"
+        id="LastName"
+        name="LastName"
+        placeholder="Last Name"
+      /><br />
+      <label title="Date of Birth" for="Date">Date of Birth</label><br />
+      <input
+        title="Please Select your date of birth"
+        type="date"
+        id="DOB"
+        name="DOB"
+      /><br />
+      <label title="UserName" for="UserName">User Name:</label><br />
+      <input
+        title="Please enter your username"
+        type="text"
+        id="UserName"
+        name="UserName"
+        placeholder="Username"
+        minlength="8"
+      />
+      <br />
+      <label title="Email" for="Email">Email:</label><br />
+      <input
+        title="Please enter your email"
+        type="email"
+        id="Email"
+        name="Email"
+        placeholder="someone@example.com"
+      />
+      <br />
+      <label title="Password" for="Password">Password:</label><br />
+      <input
+        title="Please enter your password"
+        type="password"
+        id="Password"
+        name="Password"
+        placeholder="Password"
+        minlength="8"
+      />
+      <br />
+      <label title="PasswordAgain" for="Password"
+        >Please Enter Password Again:</label
+      ><br />
+      <input
+        title="Password"
+        type="password"
+        id="PasswordAgain"
+        name="PasswordAgain"
+        placeholder="Password Again"
+        minlength="8"
+      />
+      <br />
+      <br />
+      <input
+        title="Click to Register"
+        type="button"
+        onclick="signup()"
+        value="Sign Up"
+      />
+      <br />
+      <br />
+    </form>
+    <hr />
+    <footer>
+      <address id="A1" title="Contact Us @">
+        Contact us at: <br />
+        (012-23456234) <br />
+        Email us: <br />
+        <a title="obs@gmail.com" href="mailto:obs@gmail.com" target="_blank"
+          >Send Email</a
+        >
+        <br />
+        Visit us at :<br />
+        XYZ <br />
+        Karachi <br />
+        Pakistan <br />
+      </address>
+    </footer>
+  </body>
+</html>
